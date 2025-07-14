@@ -16,13 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   //modal for CV Download 
-  const cvBtn = document.querySelector('.btn');
-  if (cvBtn) {
-    cvBtn.addEventListener('click', function (e) {
-      e.preventDefault();
-      showModal("CV download is currently unavailable. Please check back later!");
-    });
-  }
+
 
   function showModal(message) {
     const modal = document.createElement('div');
